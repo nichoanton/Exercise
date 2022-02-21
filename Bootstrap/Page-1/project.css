@@ -1,0 +1,84 @@
+.logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  color: #2764e7;
+  font-size: 2.8em;
+}
+
+#contact {
+  float: right;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+}
+
+#content-container {
+  border: groove;
+}
+
+.footer-table {
+  background-color: rgb(165, 193, 233);
+}
+
+.content-table {
+  border: dotted white;
+}
+
+.carousel_image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#side-tab {
+  border: dotted rgb(206, 206, 206);
+}
+
+#carouselControls {
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  width: 100% color=black;
+  size: 3;
+}
+
+td {
+  width: 33.3%;
+}
+
+@media all and (max-width: 900px) {
+  #content-container {
+    font-size: 1rem;
+    margin: auto;
+    width: 100%;
+  }
+  #imgi {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 1rem;
+  }
+  #imgi2 {
+    display: none;
+  }
+  #contact {
+    font-size: 0.8rem; 
+    position: relative;
+  }
+  #logo {
+    font-size: 2rem;
+  }
+  #footer {
+    font-size: 1rem;
+  }
+  #footer-tags {
+    font-size: 0.6rem;
+  }
+  #content-1 {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,78 @@
+* {
+  font-size: large;
+}
+
+#logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+#nav1 {
+  border-radius: 25px 25px 0 0;
+}
+
+#nav2-cont {
+  padding-top: 5px;
+}
+
+#contenttt {
+  border: solid 1px;
+}
+#contenttt2 {
+  background-color: rgb(233, 233, 233);
+  border: solid 1px;
+}
+
+#contenthead {
+  text-align: center;
+  padding: 30px;
+  font-weight: 700;
+}
+
+#note {
+  color: red;
+  padding: 20px;
+}
+
+.pad {
+  padding: 15px;
+}
+
+label{
+  font-weight: 600;
+}
+
+hr {
+  width: 50% color=black;
+  size: 3;
+}
+
+#form {
+  font-size: larger;
+  padding: 30px;
+}
+
+@media all and (max-width: 765px) {
+  * {
+    font-size: medium;
+    justify-content: center;
+  }
+
+  #logo {
+    font-size: 3rem;
+  }
+  .logosection {
+    text-align: center;
+  }
+  .phone {
+    font-size: 1.5rem;
+  }
+  .log {
+    font-size: 1.2rem;
+  }
+  td {
+    text-align: start;
+  }
+}

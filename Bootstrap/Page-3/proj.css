@@ -1,0 +1,130 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.4fr 1fr 1.5fr 1.5fr 3fr 1fr 0.4fr;
+  grid-template-areas:
+    "logo logo logo logo"
+    "nav nav nav nav"
+    "cor cor cor cor"
+    "content0 content0 content0 sidebar"
+    "content1 content2 content3 sidebar"
+    "main main main sidebar"
+    "table table table table"
+    "footer footer footer footer";
+  grid-gap: 0.1rem;
+  font-size: 1rem;
+}
+
+.logo {
+  grid-area: logo;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  color: #2764e7;
+  font-size: 2em;
+  padding: 0.5rem;
+}
+
+#contact {
+  float: right;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1150da;
+}
+
+main {
+  grid-area: main;
+}
+
+.cor {
+  grid-area: cor;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  font-size: small;
+  text-align: center;
+  border: dotted 2px;
+}
+
+.content0 {
+  grid-area: content0;
+  color: grey;
+  font-size: 0.8rem;
+  
+}
+
+.content1 {
+  grid-area: content1;
+}
+
+.content2 {
+  grid-area: content2;
+}
+
+.content3 {
+  grid-area: content3;
+}
+
+.table {
+  grid-area: table;
+  border: double 2px;
+}
+
+.carousel_image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+nav {
+  grid-area: nav;
+}
+
+footer {
+  grid-area: footer;
+  font-size: 0.7em;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+  padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-areas:
+      "logo logo logo"
+      "nav nav nav"
+      "cor cor content0"
+      "content1 content2 content3"
+      "main main main"
+      "sidebar sidebar sidebar"
+      "table table table"
+      "footer footer footer";
+  }
+
+  #imgi4 {
+    display: none;
+  }
+
+  img {
+    width: 95px;
+    height: 90px;
+    padding: 1rem 1rem;
+  }
+
+  #contact {
+    font-size: 0.8rem;
+  }
+
+  .sidebar {
+    text-align: center;
+    justify-content: center;
+  }
+}
