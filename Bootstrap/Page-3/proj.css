@@ -13,7 +13,7 @@
     "table table table table"
     "footer footer footer footer";
   grid-gap: 0.1rem;
-  font-size: 1rem;
+  font-size: medium;
 }
 
 .logo {
@@ -45,6 +45,7 @@ main {
   font-size: small;
   text-align: center;
   border: dotted 2px;
+  background-color: rgb(230, 230, 230);
 }
 
 .content0 {
@@ -79,6 +80,7 @@ main {
 
 nav {
   grid-area: nav;
+  border-radius: 25px 25px 0px 0px;
 }
 
 footer {
@@ -107,6 +109,7 @@ img {
       "sidebar sidebar sidebar"
       "table table table"
       "footer footer footer";
+      font-size: small;
   }
 
   #imgi4 {
@@ -120,11 +123,15 @@ img {
   }
 
   #contact {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .sidebar {
     text-align: center;
     justify-content: center;
+  }
+
+  .logo {
+    font-size: 1.9em;
   }
 }
