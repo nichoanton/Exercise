@@ -32,6 +32,10 @@
   color: #1150da;
 }
 
+#welcome { 
+  background-color: gainsboro;
+}
+
 main {
   grid-area: main;
 }
@@ -70,6 +74,7 @@ main {
 .table {
   grid-area: table;
   border: double 2px;
+  padding: 0;
 }
 
 .carousel_image {
@@ -89,6 +94,7 @@ footer {
 }
 
 img {
+  /* max-width: 100%; */
   width: 100px;
   height: 100px;
   margin: auto;
@@ -120,6 +126,7 @@ img {
     width: 95px;
     height: 90px;
     padding: 1rem 1rem;
+    /* max-width: 100%; */
   }
 
   #contact {
