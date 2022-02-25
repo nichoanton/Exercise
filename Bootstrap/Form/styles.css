@@ -1,0 +1,5 @@
+#main-container {
+  background-image: url(default-image.jpg);
+  background-size: cover;
+  background-position: center;
+}
