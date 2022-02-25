@@ -11,3 +11,7 @@
     margin: 30px;
     padding: 20px;
 }
+
+#country {
+    width : inherit;
+}
