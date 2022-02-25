@@ -1,0 +1,13 @@
+.col-form-label, .form-check-label {
+    font-weight: bold;
+}
+
+.main-cont {
+    background-color: rgb(204, 203, 203);
+}
+
+.content {
+    border: 2px solid black;
+    margin: 30px;
+    padding: 20px;
+}
