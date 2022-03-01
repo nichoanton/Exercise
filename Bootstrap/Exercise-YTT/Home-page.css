@@ -111,10 +111,15 @@ a {
 
 /* ABOUT SECTION */
 #about-section {
+  padding-bottom: 40px;
   text-align: center;
   margin: auto;
   width: 50%;
   background-image: url(images/ceabef812d79269b3b3d08e020507d44.jpeg);
+  background-position: center;
+  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* FOOTER */
@@ -144,8 +149,6 @@ body {
     display: flex;
     justify-content: center;
   }
-
-  
 
   #dummy {
     display: none;
@@ -187,19 +190,4 @@ body {
   } */
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
